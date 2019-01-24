@@ -19,7 +19,7 @@ attr_accessor :name, :artist, :genre
   end 
   
   def self.artist_count 
-    @@artists 
+    @@artists.unique 
   end 
   
   def self.genre_count 
