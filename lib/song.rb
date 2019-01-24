@@ -18,4 +18,12 @@ attr_accessor :name, :artist, :genre
     @@count
   end 
   
+  def self.artist_count 
+    @@artists 
+  end 
+  
+  def self.genre_count 
+    @@genres
+  end 
+  
 end 
