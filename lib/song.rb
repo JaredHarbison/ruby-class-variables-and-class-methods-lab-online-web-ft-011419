@@ -24,7 +24,7 @@ attr_accessor :name, :artist, :genre
   
   def self.artist_count
     @@artist_count = {}
-    
+    if @@artitss = 
   end
   
   def self.genre_count
