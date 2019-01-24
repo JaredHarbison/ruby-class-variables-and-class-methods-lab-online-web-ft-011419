@@ -24,8 +24,8 @@ attr_accessor :name, :artist, :genre
   
   def self.artist_count
     @@artist_count = {}
-    @@artits.each do |artist|
-    if @@artits = 
+    @@artists.each do |artist|
+    if @@artist_count
   end
   
   def self.genre_count
